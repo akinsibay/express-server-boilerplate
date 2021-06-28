@@ -6,7 +6,6 @@ import path from "path";
 import dotenv from "dotenv";
 import routers from "./routes";
 import logger from "morgan";
-import headerAccessControl from './middlewares/headerAccessControl';
 import cors from 'cors'
 import customErrorHandler from "./middlewares/error/customErrorHandler";
 const app = express();
